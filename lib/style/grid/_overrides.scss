@@ -1,0 +1,9 @@
+//
+// scss-flex-grid system overrides
+//
+$fg-breakpoints: (
+  (xs),
+  (sm, $bp-sm),
+  (md, $bp-md),
+  (lg, $bp-lg)
+);

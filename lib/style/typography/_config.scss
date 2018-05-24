@@ -1,0 +1,39 @@
+$f-bold-text: 'Geometric SlabSerif Medium', Helvetica, Arial, sans-serif !default;
+
+$f-regular-text: 'Geometric SlabSerif Light', Helvetica, Arial, sans-serif !default;
+
+$f-light-text: 'Geometric SlabSerif Light', Helvetica, Arial, sans-serif !default;
+
+/**
+ * Default font scale settings
+ *
+ * @group typography
+ */
+$font-scale: (
+    textBold: (
+        1: (font-size: 14, line-height: 24),
+        2: (font-size: 16, line-height: 24),
+        3: (font-size: 24, line-height: 40),
+        4: (font-size: 30, line-height: 40),
+        5: (font-size: 36, line-height: 48),
+        6: (font-size: 44, line-height: 56)
+    ),
+
+    textRegular: (
+        1: (font-size: 14, line-height: 24),
+        2: (font-size: 16, line-height: 24),
+        3: (font-size: 24, line-height: 40),
+        4: (font-size: 30, line-height: 40),
+        5: (font-size: 36, line-height: 48),
+        6: (font-size: 44, line-height: 56)
+    ),
+
+    textLight: (
+        1: (font-size: 14, line-height: 24),
+        2: (font-size: 16, line-height: 24),
+        3: (font-size: 24, line-height: 40),
+        4: (font-size: 30, line-height: 40),
+        5: (font-size: 36, line-height: 48),
+        6: (font-size: 44, line-height: 56)
+    ),
+) !default;

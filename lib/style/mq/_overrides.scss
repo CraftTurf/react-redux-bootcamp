@@ -1,0 +1,14 @@
+//
+// sass-mq system overrides
+//
+$mq-breakpoints: (
+  tablet:  $bp-sm,
+  desktop: $bp-md,
+  wide:    $bp-lg
+);
+
+$mq-show-breakpoints: (
+  tablet,
+  desktop,
+  wide
+);

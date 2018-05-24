@@ -1,0 +1,29 @@
+/* =============================================================
+   CRAFT TURF CUSTOM FONTS
+ ============================================================ */
+
+@font-face {
+  font-family: "Geometric SlabSerif Light";
+  src:  url("fonts/light/geometric-slabserif-703-light-bt.eot"),
+        url("fonts/light/geometric-slabserif-703-light-bt.eot?#iefix") format("embedded-opentype"),
+        url("fonts/light/geometric-slabserif-703-light-bt.ttf") format("truetype"),
+        url("fonts/light/geometric-slabserif-703-light-bt.woff2") format("woff2"),
+        url("fonts/light/geometric-slabserif-703-light-bt.woff") format("woff"),
+        url("fonts/light/geometric-slabserif-703-light-bt.svg#Geometric SlabSerif Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: "Geometric SlabSerif Medium";
+  src:  url("fonts/medium/geometric-slabserif-703-medium-bt.eot"),
+        url("fonts/medium/geometric-slabserif-703-medium-bt.eot?#iefix") format("embedded-opentype"),
+        url("fonts/medium/geometric-slabserif-703-medium-bt.ttf") format("truetype"),
+        url("fonts/medium/geometric-slabserif-703-medium-bt.woff2") format("woff2"),
+        url("fonts/medium/geometric-slabserif-703-medium-bt.woff") format("woff"),
+        url("fonts/medium/geometric-slabserif-703-medium-bt.svg#Geometric SlabSerif Medium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-smoothing: antialiased;
+}
