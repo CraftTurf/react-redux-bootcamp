@@ -1,5 +1,6 @@
-# 🚀  ui-boilerplate
-A `react` boilerplate for generating new projects.
+# 🚀  react-redux-bootcamp boilerplate
+
+This package can be used as the base for a new `react` project.
 
 
 This `react` boilerplate uses:
@@ -14,42 +15,21 @@ This `react` boilerplate uses:
   - [knobs](https://github.com/storybooks/storybook/tree/master/addons/knobs)
   - [a11y](https://github.com/storybooks/storybook/tree/master/addons/a11y)
   - [links](https://github.com/storybooks/storybook/tree/master/addons/links)
-- [scaffold-generator](https://github.com/kaelzhang/node-scaffold-generator) - new repo generator
 - [webpack](https://github.com/webpack/webpack) - asset bundler
 - [flow](https://github.com/facebook/flow) - static typing
 
 
-## scaffolding
-This package can be used as the base for a new `react` project.
-
+## How to use this boilerplate
 ```
-$ cd <react-ui-boilerplate>
-$ yarn install
+Clone `https://github.com/jabdul/react-redux-bootcamp.git`
 
-## configure...
-$ vi scaffold/config.js
-
-## generate new repo...
-$ babel-node scaffold
-```
-
-## create as git repo
-With the new project in place, intialise the project as a git repo:
-
-```
-$ cd <my-new-repo>
-```
-
-Follow the github instruction on [adding an existing project to github](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/).
-
-## storybook
-Once the new repo is created, you can run `storybook` ui development environment as follows:
-
-```
-$ cd <my-new-repo>
+$ cd <react-redux-bootcamp>
 $ yarn install
 
 ## run storybook...
 $ yarn run storybook
+
+
+## run build...
+$ yarn run dev
 ```
-Go to the url in your browser as indicated on the command line.
